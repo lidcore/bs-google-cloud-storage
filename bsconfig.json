@@ -1,0 +1,17 @@
+{
+  "name": "@lidcore/bs-google-cloud-storage",
+  "namespace": false,
+  "sources": ["src"],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
+  "bs-dependencies" : [
+    "bs-async-monad",
+    "@lidcore/bs-node"
+  ],
+  "refmt": 3
+}
